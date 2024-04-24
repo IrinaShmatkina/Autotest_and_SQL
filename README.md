@@ -2,3 +2,4 @@
 - Для запуска теста должны быть установлены пакеты pytest и requests
 - Запуск всех тестов выполянется командой: pytest pytest get_order_test.py
 - Файл для проверки первых двух заданий - "SQL - запросы в БД scooter_rent.txt"
+- Скриншот прохождения теста в PyCharm представлен в файле - "screenshotAutoTest.jpg"
