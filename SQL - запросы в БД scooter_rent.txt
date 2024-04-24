@@ -1,0 +1,5 @@
+#####################
+Ответ (SQL-запрос) на задание №1: select c."login", COUNT(c."login") from "Orders" as o  join "Couriers" as c on o."courierId" = c."id" WHERE o."inDelivery" = true GROUP BY c."login";
+#####################
+Ответ (SQL-запрос) на задание №2: select o."track", CASE WHEN o."inDelivery" = TRUE THEN 1 WHEN o."cancelled"  = TRUE  THEN -1 WHEN o."finished"  = TRUE THEN 2 ELSE 0 END as stasus from "Orders" as o;
+#####################
